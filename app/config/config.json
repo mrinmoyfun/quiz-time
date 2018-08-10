@@ -20,7 +20,7 @@
 		"profileFields": ["id", "displayName", "photos"]
 	},
 	"redis": {
-		"host": "127.0.0.1",
+		"host": "mriquiz.herokuapp.com",
 		"port": 6379,
 		"password": ""
 	}
