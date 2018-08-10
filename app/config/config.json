@@ -1,12 +1,12 @@
 {
 	"db": {
-		"username": "<MongoDBUsername>",
-		"password": "<MongoDBPassword>",
-		"host": "<MongoDBHost>",
-		"port": "<MongoDBPort>",
-		"name": "<MongoDBName>"
+		"username": "medgag",
+		"password": "madhurima@123",
+		"host": "ds113692.mlab.com",
+		"port": "13692",
+		"name": "medgag"
 	},
-	"sessionSecret": "<RandomString>",
+	"sessionSecret": "medgag",
 	"facebook": {
 		"clientID": "<AppID>",
 		"clientSecret": "<AppSecret>",
