@@ -12,7 +12,7 @@ var logger = require('../logger');
 // 			config.db.host + ":" + 
 // 			config.db.port + "/" + 
 // 			config.db.name;
-Mongoose.connect("mongodb://localhost/quiz_one", {
+Mongoose.connect("mongodb://medgag:madhurima@123@ds155461.mlab.com:55461/medgag", {
   useMongoClient: true,
 });
 
