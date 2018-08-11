@@ -12,7 +12,7 @@ var logger = require('../logger');
 // 			config.db.host + ":" + 
 // 			config.db.port + "/" + 
 // 			config.db.name;
-Mongoose.connect("mongodb://medgag:madhurima@123@ds155461.mlab.com:55461/medgag", {
+Mongoose.connect("mongodb://medgag:<PASSWORD>@cluster0-shard-00-00-zvioo.mongodb.net:27017,cluster0-shard-00-01-zvioo.mongodb.net:27017,cluster0-shard-00-02-zvioo.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true", {
   useMongoClient: true,
 });
 
