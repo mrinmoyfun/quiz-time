@@ -3,7 +3,7 @@
 var init = function () {
 
 	
-		var redisURI 		= require('url').parse(process.env.REDIS_URL);
+		var redisURI 		= require('req.url').parse(process.env.REDIS_URL);
 		var redisPassword 	= redisURI.auth.split(':')[1];
 		return {
 			db: {
