@@ -28,7 +28,7 @@ var init = function () {
 			},
 			redis: {
 				host: redisURI.hostname,
-				port: redisURI.port,
+				port: process.env.port,
 				password: redisPassword
 			}
 		}
