@@ -32,7 +32,7 @@ var init = function () {
 				password: redisPassword
 			}
 		}
-	}
+	
 	
 }
 
