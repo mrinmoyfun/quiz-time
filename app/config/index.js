@@ -3,8 +3,7 @@
 var init = function () {
 
 	
-		var redisURI 		= require('req.url').parse(process.env.REDIS_URL);
-		var redisPassword 	= redisURI.auth.split(':')[1];
+		
 		return {
 			db: {
 				username: "medgag",
@@ -27,9 +26,9 @@ var init = function () {
 				profileFields: ['id', 'displayName', 'photos']
 			},
 			redis: {
-				host: redisURI.hostname,
-				port: process.env.port,
-				password: redisPassword
+				host: "mriquiz.herokuapp.com",
+				port: process.env.port | 3000,
+				password: ""
 			}
 		}
 	
