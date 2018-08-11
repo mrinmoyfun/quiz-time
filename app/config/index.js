@@ -12,7 +12,7 @@ var init = function () {
 				port: 55461,
 				name: "medgag"
 			},
-			sessionSecret: process.env.sessionSecret,
+			sessionSecret: "medgag",
 			facebook: {
 				clientID: process.env.facebookClientID,
 				clientSecret: process.env.facebookClientSecret,
